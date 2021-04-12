@@ -34,6 +34,7 @@ snakes = {
     97: 25
 }
 def check_ladder(cursquare):
+    temp = 0
     if cursquare in ladders:
         print(f'You got a ladder opening')
         print(r"""
@@ -124,11 +125,11 @@ def ask_user(currplayer, cursquare):
         for key in snakes:
             print(key, end=' ')
 
-        currplayer, cursquare = ask_user(currplayer, cursquare)
+        currplayer, cursquare, temp = ask_user(currplayer, cursquare)
 
     else:
         print(f'Enter valid input, don\'t mess it up again')
-        currplayer, cursquare = ask_user(currplayer,cursquare)
+        currplayer, cursquare, temp = ask_user(currplayer,cursquare)
 
     return currplayer, cursquare, win
 
