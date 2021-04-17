@@ -22,4 +22,17 @@ Github Repo for SNA-Taskphase for Interfacing sub-division
     or
     $ python3 main.py
     ```
-### To get started change directory into week folder `cd Week[number]`
+    
+
+* Week 3 : Hangman using python
+    * 
+    * To get started =>
+    ```bash
+    $ cd Week3
+    $ python hangman.py
+    or
+    $ python3 hangman.py
+    ```
+    
+### To get started change directory into week folder : 
+#### `cd Week[number]`
