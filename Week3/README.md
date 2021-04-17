@@ -1,4 +1,4 @@
-# Week 2 - Task : Implement the game of Hangman in the language of your choice
+# Week 3- Task : Implement the game of Hangman in the language of your choice
 
 ### To run the game :
 
